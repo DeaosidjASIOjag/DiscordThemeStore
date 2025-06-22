@@ -1,6 +1,6 @@
 /**
  * @name 1x
- * @author Gavin
+ * @author Gav2011
  * @description Why?
 */
 @import url(https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.theme.css);
@@ -26,7 +26,7 @@
   --dplus-font-header: 'Righteous';
         --show-original-title: 0;
         --show-custom-title: 1; 
-        --custom-title-text: "By gavin - why?";
+        --custom-title-text: "By gav2011 - why?";
         --custom-title-font-size: 16px;
         --custom-title-font-weight: bold; 
   --dplus-radius-ui: 10px;

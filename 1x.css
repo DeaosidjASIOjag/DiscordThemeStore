@@ -1,0 +1,81 @@
+/**
+ * @name HarrisonSussy
+ * @author Gavin
+ * @description Why?
+*/
+@import url(https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.theme.css);
+.theme-dark {
+/* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
+   To use an image from your computer, upload it somewhere first, copy its link, then paste it below. */
+  --dplus-backdrop: url(https://cdn.discordapp.com/attachments/1215059306437808148/1386206206569480264/1xcustom.png?ex=6858dca2&is=68578b22&hm=1b90f3c82aba6d2e61f98763862fa8725fbbf73a087996e123bf997287f2fb77&);
+
+/* Accent color, used to decorate the UI with colors. */
+  --dplus-accent-color-hue: 0;
+  --dplus-accent-color-saturation: 0%;
+  --dplus-accent-color-lightness: 0%;
+
+/* Foreground color: For things like text and icons. */
+  --dplus-foreground-color-hue-base: 120;
+  --dplus-foreground-color-hue-links: 197;
+  --dplus-foreground-color-saturation-amount: 1;
+  --dplus-foreground-color-lightness-amount: 1;
+
+/* Background color: Covers the backdrop so the app is easier to read. */
+  --dplus-background-color-hue: 0;
+  --dplus-background-color-saturation-amount: 0;
+  --dplus-background-color-lightness-amount: 0;
+  --dplus-background-color-alpha: 0.7;
+}
+
+:root {
+/* Fonts */
+/* You can use any installed font on your device. */
+  --dplus-font-ui: 'Poppins';
+  --dplus-font-body: 'Roboto';
+  --dplus-font-header: 'Righteous';
+        --show-original-title: 0;
+        --show-custom-title: 1; 
+        --custom-title-text: "By gavin - Why harrison Why?";
+        --custom-title-font-size: 16px;
+        --custom-title-font-weight: bold; 
+
+/* Round corner sizes, measured in pixel radius.
+Set avatar/server radius to 50% to make them circular.
+   UI radius must be in pixels, otherwise things break. */
+  --dplus-radius-ui: 10px;
+  --dplus-radius-avatar: 20%;
+  --dplus-radius-server: 20%;
+
+/* This decides how much breathing room there should be between things like buttons and content. */
+  --dplus-spacing-ui: 10px;
+
+/* This sets how much space there should be between the app contents and the edges of the window. It also affects the distance between major UI elements, such as the server list to the channel list and channel list to the chat. */
+   --dplus-spacing-app: 10px;
+
+/* Size of user and server icons */
+--dplus-icon-avatar-chat: 64px;
+--dplus-icon-avatar-list: 32px;
+--dplus-icon-avatar-profile: 80px;
+
+--dplus-icon-server-sidebar: 48px;
+--dplus-icon-server-list: 32px;
+
+/* The Home icon on the top left */
+--dplus-icon-home-dark: url(https://plusinsta.github.io/discord-plus/assets/discord/home_dark.svg);
+--dplus-icon-home-light: url(https://plusinsta.github.io/discord-plus/assets/discord/home_light.svg);
+}
+.theme-dark .title_c38106::before {
+  position: fixed;
+  left: 16px;
+  top: 17px;
+  color: var(--highlight, #0f0); /* fallback green */
+  content: var(--custom-title-text);
+  font-size: calc(var(--custom-title-font-size) * var(--show-custom-title));
+  font-weight: var(--custom-title-font-weight);
+  margin-top: var(--custom-title-margin-top);
+  margin-left: var(--custom-title-margin-left);
+  display: block;
+  pointer-events: none;
+  user-select: none;
+  z-index: 1000;
+}

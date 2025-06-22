@@ -3,9 +3,9 @@
  * @author Gav2011
  * @description Why?
 */
-@import url(https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.theme.css);
+
 .theme-dark {
-  background-image: url(https://cdn.discordapp.com/attachments/1386455412223774931/1386457075160318024/1xcustom.png?ex=6859c645&is=685874c5&hm=0c385a3462cad6113a8c44f84a29fd7a3b3fbaf91a3333c02568578332b3afec&);
+  --dplus-backdrop: url(https://cdn.discordapp.com/attachments/1215059306437808148/1386206206569480264/1xcustom.png?ex=6858dca2&is=68578b22&hm=1b90f3c82aba6d2e61f98763862fa8725fbbf73a087996e123bf997287f2fb77&*);
   --dplus-accent-color-hue: 0;
   --dplus-accent-color-saturation: 0%;
   --dplus-accent-color-lightness: 0%;
@@ -18,7 +18,6 @@
   --dplus-background-color-lightness-amount: 0;
   --dplus-background-color-alpha: 0.7;
 }
-
 :root {
   --dplus-font-ui: 'Poppins';
   --dplus-font-body: 'Roboto';
@@ -45,7 +44,7 @@
   position: fixed;
   left: 16px;
   top: 17px;
-  color: var(--highlight, #0f0); /* fallback green */
+  color: var(--highlight, #0f0);
   content: var(--custom-title-text);
   font-size: calc(var(--custom-title-font-size) * var(--show-custom-title));
   font-weight: var(--custom-title-font-weight);

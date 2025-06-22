@@ -4,7 +4,7 @@
  * @description Why?
 */
 .theme-dark {
-/* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid.
+/* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid. */
   --dplus-backdrop: url(https://cdn.discordapp.com/attachments/1215059306437808148/1386206206569480264/1xcustom.png?ex=6858dca2&is=68578b22&hm=1b90f3c82aba6d2e61f98763862fa8725fbbf73a087996e123bf997287f2fb77&);
   --dplus-accent-color-hue: 0;
   --dplus-accent-color-saturation: 0%;
@@ -28,8 +28,6 @@
         --custom-title-text: "By gavin - why?";
         --custom-title-font-size: 16px;
         --custom-title-font-weight: bold; 
-Set avatar/server radius to 50% to make them circular.
-   UI radius must be in pixels, otherwise things break. */
   --dplus-radius-ui: 10px;
   --dplus-radius-avatar: 20%;
   --dplus-radius-server: 20%;

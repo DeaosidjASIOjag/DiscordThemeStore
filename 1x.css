@@ -6,7 +6,7 @@
 @import url(https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.theme.css);
 .theme-dark {
 /* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid. */
-  --dplus-backdrop: url(https://cdn.discordapp.com/attachments/1386198960359608322/1386455290781892740/Agummybear2.png?ex=6859c49c&is=6858731c&hm=69039cba812e734e843cabe81d995346c82a50307dffc2190aba11d765c160f5&);
+  --dplus-backdrop: url(https://cdn.discordapp.com/attachments/1215059306437808148/1386206206569480264/1xcustom.png?ex=6858dca2&is=68578b22&hm=1b90f3c82aba6d2e61f98763862fa8725fbbf73a087996e123bf997287f2fb77&);
   --dplus-accent-color-hue: 0;
   --dplus-accent-color-saturation: 0%;
   --dplus-accent-color-lightness: 0%;

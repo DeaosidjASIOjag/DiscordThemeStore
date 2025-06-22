@@ -5,24 +5,15 @@
 */
 @import url(https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.theme.css);
 .theme-dark {
-/* Backdrop image which is shown behind the app. Can also be an HTML color. Falls back to accent color if invalid. */
-  --dplus-backdrop: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXY1bjg5MTZ4cXA2ZDBrc2FoNXVpdGtxMnRiNDRkc2dhbGczdmRuYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/e8LKoiuYgSfYGA6Wyg/giphy.gif);
-  --dplus-accent-color-hue: 0;
-  --dplus-accent-color-saturation: 0%;
-  --dplus-accent-color-lightness: 0%;
-  --dplus-foreground-color-hue-base: 120;
-  --dplus-foreground-color-hue-links: 197;
-  --dplus-foreground-color-saturation-amount: 1;
-  --dplus-foreground-color-lightness-amount: 1;
-  --dplus-background-color-hue: 0;
-  --dplus-background-color-saturation-amount: 0;
-  --dplus-background-color-lightness-amount: 0;
-  --dplus-background-color-alpha: 0.7;
+  --dplus-backdrop: none; /* disable the Vencord default backdrop */
 
-  background-image: var(--dplus-backdrop);
-  background-size: cover;
+  /* Custom centered image */
+  background-image: url(https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExMXY1bjg5MTZ4cXA2ZDBrc2FoNXVpdGtxMnRiNDRkc2dhbGczdmRuYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/e8LKoiuYgSfYGA6Wyg/giphy.gif);
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: auto; /* keep original image size */
+
+  --dplus-background-color-alpha: 0.7; /* adjust transparency if needed */
 }
 
 :root {

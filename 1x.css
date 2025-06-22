@@ -5,15 +5,18 @@
 */
 @import url(https://plusinsta.github.io/discord-plus/src/DiscordPlus-source.theme.css);
 .theme-dark {
-  --dplus-backdrop: none; /* disable the Vencord default backdrop */
-
-  /* Custom centered image */
   background-image: url(https://cdn.discordapp.com/attachments/1386455412223774931/1386457075160318024/1xcustom.png?ex=6859c645&is=685874c5&hm=0c385a3462cad6113a8c44f84a29fd7a3b3fbaf91a3333c02568578332b3afec&);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: auto; /* keep original image size */
-
-  --dplus-background-color-alpha: 0.7; /* adjust transparency if needed */
+  --dplus-accent-color-hue: 0;
+  --dplus-accent-color-saturation: 0%;
+  --dplus-accent-color-lightness: 0%;
+  --dplus-foreground-color-hue-base: 120;
+  --dplus-foreground-color-hue-links: 197;
+  --dplus-foreground-color-saturation-amount: 1;
+  --dplus-foreground-color-lightness-amount: 1;
+  --dplus-background-color-hue: 0;
+  --dplus-background-color-saturation-amount: 0;
+  --dplus-background-color-lightness-amount: 0;
+  --dplus-background-color-alpha: 0.7;
 }
 
 :root {

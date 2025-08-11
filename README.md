@@ -1,1 +1,3 @@
-# 1xDiscord
+#Image storing
+
+used for discord themes
